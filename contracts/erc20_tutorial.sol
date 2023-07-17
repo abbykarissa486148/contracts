@@ -8,3 +8,8 @@ pragma solidity ^0.4.24;
 // Name        : 0 Fucks Token
 // Total supply: 100000000
 // Decimals    : 18
+//
+// Enjoy.
+//
+// (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
+// ----------------------------------------------------------------------------
