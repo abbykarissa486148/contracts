@@ -36,7 +36,7 @@ contract SafeMath {
         c = a / b;
  }
 }
-
+ function allowance(address tokenOwner, address spender) public constant returns (uint remaining);
 
 // ----------------------------------------------------------------------------
 // ERC Token Standard #20 Interface
