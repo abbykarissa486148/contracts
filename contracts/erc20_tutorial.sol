@@ -47,3 +47,4 @@ contract ERC20Interface {
     function balanceOf(address tokenOwner) public constant returns (uint balance);
 function allowance(address tokenOwner, address spender) public constant returns (uint remaining);
     function transfer(address to, uint tokens) public returns (bool success);
+ function approve(address spender, uint tokens) public returns (bool success);
