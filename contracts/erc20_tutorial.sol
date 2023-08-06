@@ -51,3 +51,5 @@ function allowance(address tokenOwner, address spender) public constant returns 
 function transferFrom(address from, address to, uint tokens) public returns (bool success);
 
     event Transfer(address indexed from, address indexed to, uint tokens);
+  event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
+}
