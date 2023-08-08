@@ -56,3 +56,5 @@ function transferFrom(address from, address to, uint tokens) public returns (boo
 
 // ----------------------------------------------------------------------------
 // Contract function to receive approval and execute function in one call
+//
+// Borrowed from MiniMeToken
