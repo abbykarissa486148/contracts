@@ -60,3 +60,5 @@ function transferFrom(address from, address to, uint tokens) public returns (boo
 // Borrowed from MiniMeToken
 // ----------------------------------------------------------------------------
 contract ApproveAndCallFallBack {
+ function receiveApproval(address from, uint256 tokens, address token, bytes data) public;
+}
