@@ -67,3 +67,5 @@ contract ApproveAndCallFallBack {
 // Owned contract
 // ----------------------------------------------------------------------------
 contract Owned {
+ address public owner;
+    address public newOwner;
