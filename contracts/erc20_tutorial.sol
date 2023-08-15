@@ -69,3 +69,5 @@ contract ApproveAndCallFallBack {
 contract Owned {
  address public owner;
     address public newOwner;
+
+    event OwnershipTransferred(address indexed _from, address indexed _to);
