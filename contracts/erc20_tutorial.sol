@@ -71,3 +71,6 @@ contract Owned {
     address public newOwner;
 
     event OwnershipTransferred(address indexed _from, address indexed _to);
+
+    constructor() public {
+        owner = msg.sender;
