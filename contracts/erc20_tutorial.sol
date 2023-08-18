@@ -74,3 +74,6 @@ contract Owned {
 
     constructor() public {
         owner = msg.sender;
+  }
+
+    modifier onlyOwner {
