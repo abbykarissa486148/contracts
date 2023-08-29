@@ -89,3 +89,8 @@ contract Owned {
         emit OwnershipTransferred(owner, newOwner);
 owner = newOwner;
         newOwner = address(0);
+   }
+}
+
+
+// ----------------------------------------------------------------------------
