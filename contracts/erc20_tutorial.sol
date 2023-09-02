@@ -99,3 +99,4 @@ owner = newOwner;
 // ----------------------------------------------------------------------------
 contract ERC20Interface {
  function totalSupply() public constant returns (uint);
+ function balanceOf(address tokenOwner) public constant returns (uint balance);
