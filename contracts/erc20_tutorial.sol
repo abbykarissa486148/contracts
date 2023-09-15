@@ -111,3 +111,5 @@ function approve(address spender, uint tokens) public returns (bool success);
 
 
 // ----------------------------------------------------------------------------
+contract FucksToken is ERC20Interface, Owned, SafeMath {
+    string public symbol;
