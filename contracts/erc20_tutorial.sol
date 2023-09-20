@@ -125,3 +125,7 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
   // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
+   owner = msg.sender;
+    }
+
+    modifier onlyOwner {
