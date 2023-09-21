@@ -129,3 +129,8 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
     }
 
     modifier onlyOwner {
+   require(msg.sender == owner);
+        _;
+    }
+
+    function transferOwnership(address _newOwner) public onlyOwner {
