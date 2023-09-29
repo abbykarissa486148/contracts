@@ -150,3 +150,5 @@ emit OwnershipTransferred(owner, newOwner);
 // token transfers
 // ----------------------------------------------------------------------------
 contract FucksToken is ERC20Interface, Owned, SafeMath {
+ string public symbol;
+    string public  name;
