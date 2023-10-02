@@ -156,3 +156,7 @@ uint8 public decimals;
  uint public _totalSupply;
 
     mapping(address => uint) balances;
+mapping(address => mapping(address => uint)) allowed;
+
+
+    // ------------------------------------------------------------------------
