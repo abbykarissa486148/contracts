@@ -164,3 +164,6 @@ mapping(address => mapping(address => uint)) allowed;
     // ------------------------------------------------------------------------
     constructor() public {
         symbol = "0FUCKS";
+   name = "0 Fucks Token";
+        decimals = 18;
+        _totalSupply = 100000000000000000000000000;
