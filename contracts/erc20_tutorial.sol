@@ -184,3 +184,9 @@ emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupp
     // Get the token balance for account tokenOwner
   // ------------------------------------------------------------------------
     function balanceOf(address tokenOwner) public constant returns (uint balance) {
+   return balances[tokenOwner];
+    }
+
+
+    // ------------------------------------------------------------------------
+    // Transfer the balance from token owner's account to to account
