@@ -194,3 +194,4 @@ emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupp
     // - 0 value transfers are allowed
     // ------------------------------------------------------------------------
     function transfer(address to, uint tokens) public returns (bool success) {
+   balances[msg.sender] = safeSub(balances[msg.sender], tokens);
