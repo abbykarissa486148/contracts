@@ -203,3 +203,6 @@ emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupp
 
     // ------------------------------------------------------------------------
     // Token owner can approve for spender to transferFrom(...) tokens
+  // from the token owner's account
+    //
+    // https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20-token-standard.md
