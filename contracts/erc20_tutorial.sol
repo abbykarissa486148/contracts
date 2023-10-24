@@ -217,3 +217,8 @@ function balanceOf(address tokenOwner) public constant returns (uint balance);
 
     event Transfer(address indexed from, address indexed to, uint tokens);
  event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
+}
+
+
+// ----------------------------------------------------------------------------
+// Contract function to receive approval and execute function in one call
