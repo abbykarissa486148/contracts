@@ -222,3 +222,5 @@ function balanceOf(address tokenOwner) public constant returns (uint balance);
 
 // ----------------------------------------------------------------------------
 // Contract function to receive approval and execute function in one call
+//
+// Borrowed from MiniMeToken
