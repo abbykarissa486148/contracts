@@ -240,3 +240,7 @@ contract Owned {
     event OwnershipTransferred(address indexed _from, address indexed _to);
 
     constructor() public {
+  owner = msg.sender;
+    }
+
+    modifier onlyOwner {
