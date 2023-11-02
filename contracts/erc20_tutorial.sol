@@ -244,3 +244,4 @@ contract Owned {
     }
 
     modifier onlyOwner {
+ require(msg.sender == owner);
