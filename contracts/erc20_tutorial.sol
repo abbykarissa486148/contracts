@@ -252,3 +252,4 @@ contract Owned {
    newOwner = _newOwner;
     }
     function acceptOwnership() public {
+   require(msg.sender == newOwner);
