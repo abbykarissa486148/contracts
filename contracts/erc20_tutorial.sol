@@ -255,3 +255,10 @@ contract Owned {
    require(msg.sender == newOwner);
  emit OwnershipTransferred(owner, newOwner);
   owner = newOwner;
+  newOwner = address(0);
+    }
+}
+
+
+// ----------------------------------------------------------------------------
+// ERC20 Token, with the addition of symbol, name and decimals and assisted
