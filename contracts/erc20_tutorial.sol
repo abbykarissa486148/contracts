@@ -262,3 +262,7 @@ contract Owned {
 
 // ----------------------------------------------------------------------------
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
+// token transfers
+// ----------------------------------------------------------------------------
+contract FucksToken is ERC20Interface, Owned, SafeMath {
+    string public symbol;
