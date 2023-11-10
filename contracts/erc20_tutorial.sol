@@ -266,3 +266,4 @@ contract Owned {
 // ----------------------------------------------------------------------------
 contract FucksToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
+  string public  name;
