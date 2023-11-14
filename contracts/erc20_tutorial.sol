@@ -271,3 +271,11 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
   uint public _totalSupply;
 
     mapping(address => uint) balances;
+   mapping(address => mapping(address => uint)) allowed;
+
+
+    // ------------------------------------------------------------------------
+    // Constructor
+    // ------------------------------------------------------------------------
+    constructor() public {
+        symbol = "0FUCKS";
