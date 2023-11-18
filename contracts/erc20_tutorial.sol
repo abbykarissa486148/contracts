@@ -289,3 +289,5 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
 
     // ------------------------------------------------------------------------
     // Total supply
+  // ------------------------------------------------------------------------
+    function totalSupply() public constant returns (uint) {
