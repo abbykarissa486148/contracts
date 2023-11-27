@@ -318,3 +318,5 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
 
     // ------------------------------------------------------------------------
     // Returns the amount of tokens approved by the owner that can be
+  // transferred to the spender's account
+    // ------------------------------------------------------------------------
