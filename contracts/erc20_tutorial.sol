@@ -11,3 +11,4 @@ pragma solidity ^0.4.24;
 //
 // Enjoy.
 //
+// (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
